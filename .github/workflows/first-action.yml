@@ -2,10 +2,9 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubuntu-latest
+    runs-on: windows-2022
     steps:
       - name: Print greeting
-       run: echo "Hello World"
+        run: echo "Hello World"
       - name: Print goodbye
-       run: echon "Done - bye!"
-       
+        run: echo "Done - bye!"
